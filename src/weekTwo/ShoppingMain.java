@@ -29,6 +29,17 @@ public class ShoppingMain {
 
         // Change type from int to double to calculate more accurate results
 
+        double itemOnePriceDouble = itemOnePrice;
+        double itemTwoPriceDouble = itemTwoPrice;
+
+        double totalCostOneDouble = itemOneQuantity * itemOnePriceDouble;
+        double totalCostTwoDouble = itemTwoQuantity * itemTwoPriceDouble;
+
+        System.out.println("Total decimal cost of " + itemOneName + " is: " + totalCostOneDouble);
+        System.out.println("Total decimal cost of " + itemTwoName + " is: " + totalCostTwoDouble);
+
+        /* OLD VERSION
+
         // Implicit conversion using assignment operator
         double itemOnePriceDouble = itemOnePrice;
         double itemTwoPriceDouble = itemTwoPrice;
@@ -65,5 +76,7 @@ public class ShoppingMain {
         System.out.println(itemTwoName + " final cost integer value " + finalCostTwo);
         System.out.println(itemTwoName + " final cost double value " + finalCostTwo_d);
 
+
+         */
     }
 }
