@@ -19,6 +19,7 @@ public class AddExerciseThree {
         // Test if numberOne is negative
         if (randomNumberOne % 2 < 0){
             System.out.println("Number " + randomNumberOne + "is negative");
+            // Test if numberOne is odd or even
         } else if (randomNumberOne % 2 == 0) {
             System.out.println("Number " + randomNumberOne + " is even.");
             // If numberOne is odd and lower than 20 print ”Number x is odd”
