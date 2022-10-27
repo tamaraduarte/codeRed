@@ -11,6 +11,7 @@ public class Cat {
         int catEnergy = 100;
         int option = 6;
 
+
         Scanner console = new Scanner(System.in);
 
 
